@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: amazonq-test-repo
+  profiles:
+    active: local
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    com.transamerica.platform: INFO
+    root: WARN
