@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.transamerica.platform</groupId>
+        <artifactId>platform-pom</artifactId>
+        <version>4.1.17-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>amazonq-test-repo</artifactId>
+    <packaging>jar</packaging>
+    <name>Amazon Q Test Repository</name>
+    <description>Test repository for Amazon Q Customizations</description>
+
+    <properties>
+        <start-class>com.transamerica.platform.amazonq.Application</start-class>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.transamerica.platform</groupId>
+            <artifactId>platform-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.transamerica.platform</groupId>
+            <artifactId>platform-starter-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.transamerica.platform</groupId>
+            <artifactId>platform-starter-security</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
