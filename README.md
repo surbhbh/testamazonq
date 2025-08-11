@@ -1,6 +1,6 @@
 # Amazon Q Test Repository
 
-This repository demonstrates Amazon Q Customizations requirements using Transamerica Platform patterns.
+This repository demonstrates Amazon Q Customizations requirements using Transamerica Platform patterns. testing
 
 ## Overview
 
