@@ -12,9 +12,6 @@ Triggers:
 Actions:
   Build:
     Identifier: aws/build@v1
-    Inputs:
-      Sources:
-        - WorkflowSource
     Configuration:
       Steps:
         - Run: echo "Review Complete"
