@@ -1,0 +1,21 @@
+Name: SimpleReviewWorkflow
+SchemaVersion: "1.0"
+
+Triggers:
+  - Type: PULLREQUEST
+    Branches:
+      - main
+    Events:
+      - OPEN
+      - REVISION
+
+Actions:
+  Build:
+    Identifier: aws/build@v1
+    Inputs:
+      Sources:
+        - WorkflowSource
+    Configuration:
+      Steps:
+        - Run: echo "Review Complete"
+
