@@ -1,6 +1,6 @@
 # Amazon Q Test Repository
 
-This repository demonstrates Amazon Q Customizations requirements using Transamerica Platform patterns.
+This repository demonstrates Amazon Q Customizations requirements using Transamerica Platform patterns. testing
 
 ## Overview
 
@@ -22,10 +22,10 @@ A minimal test repository that meets Amazon Q Developer customization requiremen
 
 ## Usage
 
-```bash
+bash
 mvn clean install
 mvn spring-boot:run
-```
+
 
 ## Amazon Q Integration
 
