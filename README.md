@@ -22,10 +22,10 @@ A minimal test repository that meets Amazon Q Developer customization requiremen
 
 ## Usage
 
-```bash
+bash
 mvn clean install
 mvn spring-boot:run
-```
+
 
 ## Amazon Q Integration
 
